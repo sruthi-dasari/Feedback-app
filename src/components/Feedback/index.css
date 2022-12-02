@@ -1,0 +1,55 @@
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  min-width: 600px;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-card {
+  max-width: 350px;
+}
+
+.question-title {
+  font-size: 28px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.smiley-outer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: none;
+}
+
+.smiley-img {
+  height: 60px;
+  width: 60px;
+}
+
+.smiley-name {
+  font-family: 'Roboto';
+}
